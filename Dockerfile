@@ -4,7 +4,7 @@ ADD requirements.txt /
 
 RUN pip install -r /requirements.txt
 
-ADD iris-classifier.py /
+ADD iris.py /
 
 ENV PYTHONUNBUFFERED=1
 
